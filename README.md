@@ -1,3 +1,3 @@
-##Dice Roller & Number Generator
+## Dice Roller & Number Generator
 
 This project is for learning
