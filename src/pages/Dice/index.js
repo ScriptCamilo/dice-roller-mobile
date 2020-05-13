@@ -1,7 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import Lottie from 'lottie-react-native';
-import {View, Button, Text, StyleSheet} from 'react-native';
-import {Container} from './style';
+import {StyleSheet} from 'react-native';
+import {Container, DiceBox, Button, TextB} from './style';
 
 import diceLoop from '../../assets/Json/dice-loop.json';
 import diceOne from '../../assets/Json/dice-one.json';
@@ -78,7 +78,7 @@ const DiceRoller = () => {
           <Lottie source={diceSix} style={styles.dice} autoPlay loop={false} />,
         );
       }
-    }, 2950);
+    }, 1000);
   }
 
   // useEffect(() => {
@@ -87,8 +87,10 @@ const DiceRoller = () => {
 
   return (
     <Container>
-      {diceAnime}
-      <Button title="Spin" onPress={DiceNumber} />
+      <DiceBox>{diceAnime}</DiceBox>
+      <Button onPress={DiceNumber}>
+        <TextB>Spin</TextB>
+      </Button>
     </Container>
   );
 };

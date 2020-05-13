@@ -21,6 +21,7 @@ const Routes = () => {
         tabBarOptions={{
           activeTintColor: '#cc0000',
           labelStyle: styles.labelStyle,
+          style: styles.tab,
         }}
         screenOptions={({route}) => ({
           tabBarIcon: ({focused, color, size}) => {
@@ -49,6 +50,10 @@ const styles = StyleSheet.create({
   labelStyle: {
     fontFamily: 'serif',
     fontWeight: 'bold',
+  },
+  tab: {
+    backgroundColor: '#242424',
+    borderTopColor: 'red',
   },
 });
 
