@@ -1,6 +1,6 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import {Image, StyleSheet} from 'react-native';
+import {StyleSheet} from 'react-native';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -19,7 +19,7 @@ const Routes = () => {
       <Tab.Navigator
         initialRouteName="Dice"
         tabBarOptions={{
-          activeTintColor: '#cc0000',
+          activeTintColor: '#B71C1C',
           labelStyle: styles.labelStyle,
           style: styles.tab,
         }}
