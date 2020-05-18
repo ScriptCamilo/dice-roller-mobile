@@ -37,7 +37,7 @@ export const Input = styled.TextInput.attrs((props) => ({
 
 export const Button = styled.TouchableOpacity`
   padding: 10px 40px;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px ${(props) => `${props.bottom}px`} 0px;
   border-radius: 3px;
   font-size: 18px;
 
@@ -52,4 +52,56 @@ export const TextB = styled.Text`
   font-family: serif;
   font-weight: bold;
   color: #fff;
+`;
+
+export const Modal = styled.Modal``;
+
+export const OutputBox = styled.View`
+  flex: 1;
+
+  justify-content: center;
+  align-items: center;
+`;
+
+export const Output = styled.Text`
+  font-family: serif;
+  font-size: 20px;
+  color: #c0392b;
+  background-color: #242424;
+  border-radius: 50px;
+`;
+
+export const Img = styled.ImageBackground`
+  padding: 10px;
+  height: 60%;
+  width: 100%;
+  resize-mode: cover;
+  align-items: center;
+  justify-content: space-between;
+`;
+
+export const ErrorContainer = styled(Container)`
+  background-color: transparent;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
+`;
+
+export const ErrorBox = styled.View`
+  border-radius: 20px;
+  margin-top: 25px;
+  padding: 18px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f3e5f5;
+  elevation: 25;
+`;
+
+export const ErrorTitle = styled.Text`
+  color: #c0392b;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 20px;
+  font-family: pixel;
 `;

@@ -3,13 +3,13 @@ import Lottie from 'lottie-react-native';
 import {StyleSheet} from 'react-native';
 import {Container, DiceBox, Button, TextB} from './style';
 
-import diceLoop from '../../assets/Json/dice-loop.json';
-import diceOne from '../../assets/Json/dice-one.json';
-import diceTwo from '../../assets/Json/dice-two.json';
-import diceThree from '../../assets/Json/dice-three.json';
-import diceFour from '../../assets/Json/dice-four.json';
-import diceFive from '../../assets/Json/dice-five.json';
-import diceSix from '../../assets/Json/dice-six.json';
+import diceLoop from '../../assets/json/dice-loop.json';
+import diceOne from '../../assets/json/dice-one.json';
+import diceTwo from '../../assets/json/dice-two.json';
+import diceThree from '../../assets/json/dice-three.json';
+import diceFour from '../../assets/json/dice-four.json';
+import diceFive from '../../assets/json/dice-five.json';
+import diceSix from '../../assets/json/dice-six.json';
 
 const DiceRoller = () => {
   // const [onOff, setOnOff] = useState(true);
