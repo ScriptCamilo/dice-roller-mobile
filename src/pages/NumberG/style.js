@@ -65,10 +65,16 @@ export const OutputBox = styled.View`
 
 export const Output = styled.Text`
   font-family: serif;
-  font-size: 20px;
+  font-size: 35px;
+
+  padding: 10px;
+  border-radius: 100px;
+
+  text-align: center;
+
   color: #c0392b;
   background-color: #242424;
-  border-radius: 50px;
+  elevation: 25;
 `;
 
 export const Img = styled.ImageBackground`
