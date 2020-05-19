@@ -65,9 +65,10 @@ export const OutputBox = styled.View`
 
 export const Output = styled.Text`
   font-family: serif;
-  font-size: 35px;
+  font-size: 30px;
 
   padding: 10px;
+  margin-bottom: 130px;
   border-radius: 100px;
 
   text-align: center;

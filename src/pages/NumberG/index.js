@@ -28,9 +28,11 @@ const DiceRoller = () => {
     const x = Math.ceil(max);
     const y = Math.floor(min);
     let rnd = Math.floor(Math.random() * (x - y + 1)) + y;
+    let dec = Math.random() * (x - y + 1) + y;
 
     if (x === y) {
-      rnd = 'Max equal to Min';
+      setRound(dec);
+      return setOutputOn(!outputOn);
     }
 
     if (x < y) {
