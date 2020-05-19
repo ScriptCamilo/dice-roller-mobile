@@ -16,8 +16,8 @@ import {
 } from './style';
 
 const DiceRoller = () => {
-  const [min, setMin] = useState(0);
-  const [max, setMax] = useState(0);
+  const [min, setMin] = useState();
+  const [max, setMax] = useState();
   const [errorOn, setErrorOn] = useState(false);
   const [outputOn, setOutputOn] = useState(false);
   const [round, setRound] = useState(0);
