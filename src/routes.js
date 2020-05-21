@@ -1,6 +1,6 @@
 import 'react-native-gesture-handler';
 import React from 'react';
-import {StyleSheet} from 'react-native';
+import {StyleSheet, StatusBar} from 'react-native';
 
 import {NavigationContainer} from '@react-navigation/native';
 import {createBottomTabNavigator} from '@react-navigation/bottom-tabs';
@@ -16,6 +16,7 @@ const Tab = createBottomTabNavigator();
 const Routes = () => {
   return (
     <NavigationContainer>
+      <StatusBar barStyle="dark-content" backgroundColor="#F3E5F5" />
       <Tab.Navigator
         initialRouteName="Dice"
         tabBarOptions={{

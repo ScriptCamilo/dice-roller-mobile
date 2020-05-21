@@ -81,10 +81,6 @@ const DiceRoller = () => {
     }, 1000);
   }
 
-  // useEffect(() => {
-  //   DiceNumber();
-  // }, [DiceAnime]);
-
   return (
     <Container>
       <DiceBox>{diceAnime}</DiceBox>
