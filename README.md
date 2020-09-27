@@ -13,7 +13,8 @@
 </p>
 
 <p align="center">
-  <img src="src/assets/readme/dice-roller.gif"/>
+  <img src="src/assets/readme/dice-roller1.gif"/>
+  <img src="src/assets/readme/dice-roller2.gif"/>
 </p>
 
 <hr />
