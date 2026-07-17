@@ -1,4 +1,3 @@
-<h1 align="center">
 <br>
   Dice Roller & Number Generator - Mobile
 </h1>
@@ -27,7 +26,7 @@
 ### 🛠 Technologies <a id="-tech"></a>
 
 The following tools was used in this project:
-- [React JS](https://https://reactjs.org/)
+- [React Native](https://reactnative.dev/)
 
 # Demo
 <p align="center">
