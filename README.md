@@ -12,11 +12,6 @@
  <a href="#-license">Useful Links</a> • 
 </p>
 
-<p align="center">
-  <img src="src/assets/readme/dice-roller1.gif" width="350px" height="600px"/>
-  <img src="src/assets/readme/dice-roller2.gif" width="350px" height="600px"/>
-</p>
-
 <hr />
 
 <h4 align="center"> 
@@ -33,6 +28,12 @@
 
 The following tools was used in this project:
 - [React JS](https://https://reactjs.org/)
+
+# Demo
+<p align="center">
+  <img src="src/assets/readme/dice-roller1.gif" width="350px" height="600px"/>
+  <img src="src/assets/readme/dice-roller2.gif" width="350px" height="600px"/>
+</p>
 
 ## Getting started <a id="-start"></a>
 
